@@ -1,1 +1,1 @@
-# denver-portfolio.netlify.app
+# https://denver-portfolio.netlify.app
