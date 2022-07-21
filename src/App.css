@@ -1,0 +1,113 @@
+@media screen and (max-width:650px) {
+    .Apps{
+        width: 166vw;
+    }
+    .middle-main{
+        padding-left: 0;
+    }
+    .App .skill , .skill .skill-part{
+        width: 100%;
+    }
+    .skill .skill-box{
+        margin: 10px;
+    }
+    .achieve .achieve-card{
+        width: 70%;
+    }
+    .contact-part{
+        width: 86%;
+        align-items: center;
+        justify-content: center;  
+        flex-direction: column;
+    }
+    .App .contact , .App .form , .App form{
+        width: 86%;
+        margin-bottom: 2rem;
+    }
+    .App form{
+        margin-bottom: 5rem;
+    }
+    .App .info , .App .info1 , .App .icons , .App .middle{
+        width: 100%;
+    }
+    .project .project-card{
+        height: 50vh;
+    }
+    .App .middle p{
+        width: 76%;
+    }
+    .App .middle{
+        font-size:25px ;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width:1030px) {
+    .skill .skill-part{
+        width: 100%;
+    }
+    .skill .skill-box{
+        margin: 20px;
+    }
+    .project .project-card{
+        width: 40%;
+        height: 50vh;
+    }
+    .achieve .achieve-card{
+        width: 40%;
+    }
+    .contact-part .contact{
+        width: 50%;
+    }
+    .contact-part form{
+        width: 70%;
+    }
+    .App .info , .App .info1 , .App .icons , .App .middle{
+        width: 81%;
+    }
+    .App .icons{
+        letter-spacing: 40px;
+    }
+}
+
+@media screen and (min-width:1050px) and (max-width:1300px) {
+    .App .info , .App .info1 , .App .icons , .App .middle {
+        width: 70%;
+    }
+    .skill .skill-part{
+        width: 90%;
+    }
+    .contact-part .contact{
+        width: 50%;
+    }
+    .contact-part .form{
+        width: 105vw;
+    }
+}
+
+:root{
+    --background : white;
+    --text : black;
+    --text2 : white;
+    --text3 : orange;
+}
+
+[data-theme="dark"]{
+    --background : black;
+    --text : white;
+    --text2 : black;
+    --text3 : orange;
+}
+
+p{
+    background-color: none;
+}
+
+.toggle-icon{
+    font-size: 30px;
+    color: var(--text);
+   position: fixed;
+   margin: 7px 12px 0;
+   right: 2vw;
+}
+
+
