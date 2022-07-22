@@ -1,6 +1,6 @@
-@media screen and (max-width:650px) {
-    .Apps{
-        width: 166vw;
+@media screen and (min-width:300px) and (max-width:650px) {
+    .Apps .App{
+        width: 165%;
     }
     .middle-main{
         padding-left: 0;
