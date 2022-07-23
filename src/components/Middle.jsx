@@ -14,7 +14,7 @@ function Middle() {
     <div className='middle-main'>
         <div className='middle'>
             <div style={{color:"orange" , fontSize:'70px'}} data-aos="fade-right">Hello !</div>
-            <h1 data-aos="fade-left"> I'm <span>
+            <h1 data-aos="fade-left"><span>
             <Typewriter
             options={{
             strings: [`I'm Abhisek kumar Singh`, `I'm a Front-end Developer`],
