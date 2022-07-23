@@ -2,7 +2,9 @@ import React , {useEffect} from 'react';
 import "../index.css";
 import "../App.css";
 import Aos from 'aos';
-import "aos/dist/aos.css"
+import "aos/dist/aos.css";
+import Resume from "../images/Resume.pdf";
+import Typewriter from 'typewriter-effect';
 
 function Middle() {
   useEffect(()=>{
@@ -12,7 +14,16 @@ function Middle() {
     <div className='middle-main'>
         <div className='middle'>
             <div style={{color:"orange" , fontSize:'70px'}} data-aos="fade-right">Hello !</div>
-            <h1 data-aos="fade-left"> I'm Abhisek Kumar Singh</h1>
+            <h1 data-aos="fade-left"> I'm <span>
+            <Typewriter
+            options={{
+            strings: [`I'm Abhisek kumar Singh`, `I'm a Front-end Developer`],
+            autoStart: true,
+            pauseFor:400,
+            cursor:"_",
+            deleteSpeed:120,
+            loop: true,
+            }} /></span></h1>
             <p data-aos="zoom-in">I'm a front-end web developer. Currently , I'm studying in AIT, Pune from Computer Engr branch.</p>
         </div>
         <div className='icons' data-aos="fade-right">
@@ -32,7 +43,7 @@ function Middle() {
         <i class="fa-brands fa-discord"></i><div>Denver#2229</div>
         </div>
         <div className='info1' data-aos="fade-right">
-         <a href="../images/Resume.pdf" download className='resume'> Download Resume</a>
+         <a href={Resume} download className='resume'> Download Resume</a>
         </div>
     </div>
   )
