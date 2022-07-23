@@ -73,6 +73,9 @@
   /* margin-top: 5rem; */
   padding: 10rem 0rem 5rem 3rem;;
 }
+.middle h1{
+  color:#f8af98;
+}
 .middle p{
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
