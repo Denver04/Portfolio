@@ -48,13 +48,13 @@ function App() {
     <i className='fa fa-toggle-on toggle-icon' onClick={switchTheme}></i>
 
       <Middle />
-      <hr />
+
       <Skill />
-      <hr />
+      
       <Projects />
-      <hr />
+     
       <Achieve />
-      <hr />
+      
       <Contact />
     </div>
     }
